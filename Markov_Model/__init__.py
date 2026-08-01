@@ -1,0 +1,1 @@
+from Markov_Model.DNASynModel import DNASynModel
