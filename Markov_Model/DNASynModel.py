@@ -4,7 +4,7 @@ from collections import defaultdict, Counter
 import numpy as np
 import pandas as pd
 
-class MarkovDNA:
+class DNASynModel:
     def __init__(self, k=3, alphabet="ACGT", pseudocount=1.0):
         self.k = k
         self.alphabet = list(alphabet)
